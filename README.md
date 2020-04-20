@@ -33,7 +33,7 @@ Review length:
 Mean 234.76 words (172.911495)
 
 Model: "sequential_1"
-Layer (type)                 Output Shape              Param #   
+layer(type)                Output Shape              Param   
 =================================================================
 embedding_1 (Embedding)      (None, 500, 32)           160000    
 _________________________________________________________________
