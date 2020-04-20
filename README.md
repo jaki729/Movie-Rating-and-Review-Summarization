@@ -33,8 +33,10 @@ Review length:
 Mean 234.76 words (172.911495)
 
 Model: "sequential_1"
-layer(type)                Output Shape              Param   
-=================================================================
+
+Layer (type)                 Output Shape              Param #   
+
+
 embedding_1 (Embedding)      (None, 500, 32)           160000    
 _________________________________________________________________
 flatten_1 (Flatten)          (None, 16000)             0         
@@ -42,8 +44,8 @@ _________________________________________________________________
 dense_1 (Dense)              (None, 250)               4000250   
 _________________________________________________________________
 dense_2 (Dense)              (None, 1)                 251       
-=================================================================
-Total params: 4,160,501
+
+
 Trainable params: 4,160,501
 Non-trainable params: 0
 Train on 25000 samples, validate on 25000 samples
